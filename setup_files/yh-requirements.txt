@@ -1,0 +1,11 @@
+pandas 
+matplotlib
+sklearn
+plotly 
+scipy 
+ipykernel 
+ipywidgets 
+jupyterlab
+tqdm 
+wheel
+
