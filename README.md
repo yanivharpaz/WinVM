@@ -34,19 +34,18 @@ git clone https://github.com/yanivharpaz/WinVM.git
 # download font and theme to the desktop
 cd $env:USERPROFILE\Desktop
 
-copy c:\dev\WinVM\setup_files\DelugiaCodeNerdFontComplete.ttf .
-copy c:\dev\WinVM\setup_files\yaniv_dark_01.deskthemepack .
+copy -Force c:\dev\WinVM\setup_files\DelugiaCodeNerdFontComplete.ttf .\
+copy -Force c:\dev\WinVM\setup_files\yaniv_dark_01.deskthemepack .\
 
 mkdir config
 cd config
 
-copy c:\dev\WinVM\setup_files\*.* .
-copy c:\dev\WinVM\scripts\*.* .
+copy -Force c:\dev\WinVM\setup_files\*.* .\
+copy -Force c:\dev\WinVM\scripts\*.* .\
 
 choco install -y googlechrome
 
 copy "Microsoft.PowerShell_profile.ps1" $env:USERPROFILE\Documents\PowerShell
-
 
 
 

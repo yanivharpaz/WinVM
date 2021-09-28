@@ -22,15 +22,9 @@ choco install -y python
 choco install -y microsoft-windows-terminal
 copy /y %USERPROFILE%\Desktop\config\settings.json %USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
 
+rem %USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\
 
-%USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\
 choco install -y wsl-ubuntu-2004
-
-choco install -y anaconda3
-
-choco install -y vcredist-all
-
-choco install -y docker-desktop
 
 rem choco install -y openjdk
 choco install -y jdk8
@@ -45,10 +39,6 @@ choco install -y vlc
 
 rem choco install -y visualstudio2019buildtools
 
-choco install -y visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --includeOptional --passive --locale en-US"
-
-choco install -y ssms
-
 
 rem dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 rem dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -57,9 +47,15 @@ start chrome aka.ms/wsl2kernel
 
 mkdir \dev\python_go
 cd \dev\python_go
-wget --no-check-certificate https://gitlab.com/yaniv.harpaz/notes/-/raw/master/older_stuff/yh-requirements.txt
-wget --no-check-certificate https://gitlab.com/yaniv.harpaz/notes/-/raw/master/older_stuff/ext-vscode.cmd
-wget --no-check-certificate https://gitlab.com/yaniv.harpaz/notes/-/raw/master/older_stuff/python_first_env.cmd
+
+copy c:\dev\WinVM\setup_files\yh-requirements.txt .
+copy c:\dev\WinVM\scripts\030_python_first_env.cmd .
+copy c:\dev\WinVM\scripts\010_ext_vscode.cmd .
+copy c:\dev\WinVM\scripts\020_python_ds_pkg.cmd .
+
+rem wget --no-check-certificate https://gitlab.com/yaniv.harpaz/notes/-/raw/master/older_stuff/yh-requirements.txt
+rem wget --no-check-certificate https://gitlab.com/yaniv.harpaz/notes/-/raw/master/older_stuff/ext-vscode.cmd
+rem wget --no-check-certificate https://gitlab.com/yaniv.harpaz/notes/-/raw/master/older_stuff/python_first_env.cmd
 
 start cmd 
 
@@ -70,5 +66,4 @@ rem pip install -r yh-requirements.txt
 
 secpol
 
-start chrome aka.ms/buildtools
 
