@@ -45,7 +45,7 @@ copy -Force c:\dev\WinVM\scripts\*.* .\
 
 choco install -y googlechrome
 
-copy "Microsoft.PowerShell_profile.ps1" $env:USERPROFILE\Documents\PowerShell
+copy -Force "Microsoft.PowerShell_profile.ps1" $env:USERPROFILE\Documents\PowerShell
 
 
 
