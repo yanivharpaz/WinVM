@@ -32,6 +32,8 @@ choco install -y javaruntime
 choco install -y scala.install
 
 choco install -y nodejs
+choco install -y julia
+
 choco install -y firefox
 
 choco install -y vlc
