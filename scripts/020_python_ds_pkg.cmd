@@ -1,6 +1,9 @@
+pip install --upgrade pip
 pip install wheel
 pip install cython
-pip install TensorFlow
+pip install ipykernel
+pip install jupyterlab
+
 pip install Theano
 pip install Pandas
 pip install Keras
@@ -15,6 +18,9 @@ pip install Bokeh
 pip install Plotly
 pip install pydot
 pip install Statsmodels 
+pip install tensorflow
+
+
 
 rem pip install PyTorch --user
 rem pip install Caffe

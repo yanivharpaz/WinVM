@@ -17,7 +17,7 @@ copy /y %USERPROFILE%\Desktop\config\wincmd.ini %USERPROFILE%\AppData\Roaming\GH
 choco install -y git --params="'/GitAndUnixToolsOnPath /NoAutoCrlf'" --install-arguments="'/DIR=C:\swtools\git'"
 choco install -y sysinternals
 
-choco install -y python
+choco install -y python --version=3.9.7 --side-by-side
 
 choco install -y microsoft-windows-terminal
 copy /y %USERPROFILE%\Desktop\config\settings.json %USERPROFILE%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
@@ -30,6 +30,8 @@ rem choco install -y openjdk
 choco install -y jdk8
 choco install -y javaruntime
 choco install -y scala.install
+
+choco install -y lyx --version=2.3.4.1
 
 choco install -y nodejs
 choco install -y julia
