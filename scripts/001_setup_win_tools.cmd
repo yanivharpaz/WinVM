@@ -39,6 +39,7 @@ choco install -y julia
 choco install -y firefox
 
 choco install -y vlc
+choco install -y hyper
 
 
 rem choco install -y visualstudio2019buildtools
