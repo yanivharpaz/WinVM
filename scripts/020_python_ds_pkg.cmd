@@ -23,6 +23,8 @@ pip install tensorflow
 pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install
 
+pip install RISE
+
 rem pip install PyTorch --user
 rem pip install Caffe
 
