@@ -20,7 +20,8 @@ pip install pydot
 pip install Statsmodels 
 pip install tensorflow
 
-
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install
 
 rem pip install PyTorch --user
 rem pip install Caffe
