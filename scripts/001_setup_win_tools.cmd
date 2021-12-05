@@ -6,7 +6,7 @@ rem choco install -y googlechrome.canary
 choco install -y powershell-core
 choco install -y oh-my-posh --force
 
-rem start pwsh -Command wsl --install
+start pwsh -Command wsl --install
 
 choco install -y vscode
 choco install -y vscode-insiders
