@@ -15,6 +15,8 @@ pwsh -command code --install-extension yzhang.markdown-all-in-one
 pwsh -command code --install-extension ms-azuretools.vscode-azurestorage
 pwsh -command code --install-extension scala-lang.scala
 
+pwsh -command code --install-extension sourcery.sourcery
+
 echo Installing Visual Studio Code insiders extensions
 
 pwsh -command code-insiders --install-extension ms-python.python
@@ -28,6 +30,8 @@ pwsh -command code-insiders --install-extension mechatroner.rainbow-csv
 pwsh -command code-insiders --install-extension zainchen.json
 pwsh -command code-insiders --install-extension yzhang.markdown-all-in-one
 pwsh -command code-insiders --install-extension scala-lang.scala
+
+pwsh -command code-insiders --install-extension sourcery.sourcery
 
 pwsh -command code-insiders --install-extension ms-azuretools.vscode-azurestorage
 
