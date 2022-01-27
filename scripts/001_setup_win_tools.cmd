@@ -13,6 +13,8 @@ choco install -y vscode-insiders
 
 choco install -y totalcommander
 copy /y %USERPROFILE%\Desktop\config\wincmd.ini %USERPROFILE%\AppData\Roaming\GHISLER
+copy /y %USERPROFILE%\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\"Total Commander"\"Total Commander".lnk %USERPROFILE%\Desktop
+
 
 choco install -y git --params="'/GitAndUnixToolsOnPath /NoAutoCrlf'" --install-arguments="'/DIR=C:\swtools\git'"
 choco install -y sysinternals
