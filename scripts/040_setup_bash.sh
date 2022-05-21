@@ -14,6 +14,8 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo service docker restart
 
+sudo chsh -s `which zsh`
+
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" 
 
 
