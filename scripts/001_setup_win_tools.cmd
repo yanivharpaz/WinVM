@@ -39,6 +39,7 @@ choco install -y nodejs
 choco install -y julia
 
 choco install -y firefox
+choco install -y brave
 
 choco install -y vlc
 choco install -y hyper
