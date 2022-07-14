@@ -15,7 +15,7 @@ pwsh -command code --install-extension yzhang.markdown-all-in-one
 pwsh -command code --install-extension ms-azuretools.vscode-azurestorage
 pwsh -command code --install-extension scala-lang.scala
 
-pwsh -command code --install-extension sourcery.sourcery
+pwsh -command code --install-extension mhutchie.git-graph
 
 echo Installing Visual Studio Code insiders extensions
 
