@@ -31,7 +31,7 @@ pwsh -command code-insiders --install-extension zainchen.json
 pwsh -command code-insiders --install-extension yzhang.markdown-all-in-one
 pwsh -command code-insiders --install-extension scala-lang.scala
 
-pwsh -command code-insiders --install-extension sourcery.sourcery
+pwsh -command code-insiders --install-extension mhutchie.git-graph
 
 pwsh -command code-insiders --install-extension ms-azuretools.vscode-azurestorage
 
