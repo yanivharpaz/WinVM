@@ -43,7 +43,7 @@ choco install -y brave
 
 choco install -y vlc
 choco install -y hyper
-
+choco install -y winscp
 
 rem choco install -y visualstudio2019buildtools
 
