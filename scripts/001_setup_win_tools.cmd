@@ -45,6 +45,7 @@ choco install -y vlc
 choco install -y hyper
 choco install -y winscp
 choco install -y terraform
+choco install -y azure-cli
 
 rem choco install -y visualstudio2019buildtools
 
