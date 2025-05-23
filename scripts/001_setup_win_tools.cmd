@@ -41,6 +41,8 @@ choco install -y julia
 choco install -y firefox
 choco install -y brave
 
+choco install -y ollama
+
 choco install -y vlc
 choco install -y hyper
 choco install -y winscp
