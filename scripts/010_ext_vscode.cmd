@@ -18,6 +18,7 @@ pwsh -command code --install-extension scala-lang.scala
 pwsh -command code --install-extension HashiCorp.terraform
 
 pwsh -command code --install-extension mhutchie.git-graph
+pwsh -command code --install-extension Continue.continue
 
 echo Installing Visual Studio Code insiders extensions
 
@@ -36,6 +37,7 @@ pwsh -command code-insiders --install-extension scala-lang.scala
 pwsh -command code-insiders --install-extension mhutchie.git-graph
 
 pwsh -command code-insiders --install-extension ms-azuretools.vscode-azurestorage
+pwsh -command code-insiders --install-extension Continue.continue
 
 
 
